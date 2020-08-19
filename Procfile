@@ -1,1 +1,1 @@
-web:gunincorn customer_management_system.wsgi--log-file-
+web: gunicorn customer_management_system.wsgi --log-file -
