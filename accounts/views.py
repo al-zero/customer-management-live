@@ -138,7 +138,7 @@ def register_view(request):
     return render(request, 'accounts/register.html', context)
 
 
-#@unauthenticated_user
+@unauthenticated_user
 def login_view(request):
     if request.method == 'POST':
         username = request.POST.get('username')
